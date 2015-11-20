@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double A, R;
+	//aqui foi definido o pi como uma constante
+	const double PI = 3.14159;
+	//Aqui estou lendo a variável do raio da circunferencia
+	scanf("%lf", &R);
+	//aqui se aplica a fórmula a = pi . R ao quadrado
+	A = PI * R*R;
+	// mostrar o valor do resultado da formula está dando erro em algum lugar
+	printf("A=%.4lf\n", A);
+ 
+    return 0;
+}
