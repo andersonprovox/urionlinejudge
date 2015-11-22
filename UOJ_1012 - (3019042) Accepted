@@ -1,0 +1,25 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    const double pi = 3.14159;
+	double a, b, c, restriangle, rescircle, restrap, resquad, resretangle;
+	
+	scanf("%lf", &a);
+	scanf("%lf", &b);
+	scanf("%lf", &c);
+	
+	restriangle = a * c / 2;
+	rescircle = pi * (c * c);
+	restrap = (a + b) * c / 2 ;
+	resquad = b * b;
+	resretangle = a * b;
+	
+	printf("TRIANGULO: %.3lf\n", restriangle);
+	printf("CIRCULO: %.3lf\n", rescircle);
+	printf("TRAPEZIO: %.3lf\n", restrap);
+	printf("QUADRADO: %.3lf\n", resquad);
+	printf("RETANGULO: %.3lf\n", resretangle);
+ 
+    return 0;
+}
