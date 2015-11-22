@@ -1,0 +1,20 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    const int ano = 365, dia = 30;
+	int idade;
+	int rAno, rMes, rDia;
+	
+	scanf("%d", &idade);
+	
+	rAno = idade / ano;
+	rMes = (idade - rAno * ano) / dia;
+	rDia = idade - rAno * ano - rMes * dia;
+	
+	printf("%d ano(s)\n", rAno);
+	printf("%d mes(es)\n", rMes);
+	printf("%d dia(s)\n", rDia);
+ 
+    return 0;
+}
