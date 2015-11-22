@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+     const float pesone = 3.5, pestwo = 7.5;
+       float a, b, MEDIA;
+
+       scanf("%f", &a);
+       scanf("%f", &b);
+
+       MEDIA = (a * pesone + b * pestwo) / (pesone + pestwo);
+       
+       printf("MEDIA = %.5f\n", MEDIA);
+ 
+    return 0;
+}
