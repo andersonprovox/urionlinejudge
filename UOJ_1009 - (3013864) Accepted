@@ -1,0 +1,20 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    const double comissao = 0.15;
+ 	double salfix, totalvendas, totalgeral, porcvend;
+ 	char vendedor;
+ 	
+ 	scanf("%s", &vendedor);
+ 	scanf("%lf", &salfix);
+ 	scanf("%lf", &totalvendas);
+ 	
+ 	porcvend = totalvendas * comissao;
+ 	totalgeral = porcvend + salfix;
+ 	
+ 	printf("TOTAL = R$ %.2lf\n", totalgeral);
+ 	
+ 
+    return 0;
+}
