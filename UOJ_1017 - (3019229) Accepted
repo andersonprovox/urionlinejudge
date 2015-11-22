@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    const float km_car = 12;
+	int horas, km_h; 
+	double total;
+	
+	scanf("%d", &horas);
+	scanf("%d", &km_h);
+	
+	total = horas * km_h / km_car;
+	
+	printf("%.3lf\n", total);
+ 
+    return 0;
+}
