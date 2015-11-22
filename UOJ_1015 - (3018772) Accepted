@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    float x1, x2, y1, y2, total_x, total_y, total_xy, final_total;
+	
+	scanf("%f", &x1);
+	scanf("%f", &y1);
+	scanf("%f", &x2);
+	scanf("%f", &y2);
+	
+	final_total = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2)); 
+	
+	printf("%.4f\n", final_total);
+ 
+    return 0;
+}
