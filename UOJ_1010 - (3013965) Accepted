@@ -1,0 +1,20 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+   float valunitone, valunittwo, valtotal;
+	int cod_prodone, cod_prodtwo, unit_prodone, unit_prodtwo;
+	
+	scanf("%d", &cod_prodone);
+	scanf("%d", &unit_prodone);
+	scanf("%f", &valunitone);
+	scanf("%d", &cod_prodtwo);
+	scanf("%d", &unit_prodtwo);
+	scanf("%f", &valunittwo);
+	
+	valtotal = unit_prodone * valunitone + unit_prodtwo * valunittwo;
+	
+	printf("VALOR A PAGAR: R$ %.2f\n", valtotal);
+ 
+    return 0;
+}
