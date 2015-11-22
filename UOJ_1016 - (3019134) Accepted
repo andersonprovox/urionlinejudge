@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+   int km, total_km;
+	
+	scanf("%d", &km);
+	
+	total_km = km * 2;
+	
+	printf("%d minutos\n", total_km);
+ 
+    return 0;
+}
