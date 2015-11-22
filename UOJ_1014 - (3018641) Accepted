@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int km;
+	float fuel, total;
+	
+	scanf("%d", &km);
+	scanf("%f", &fuel);
+	
+	total = km / fuel;
+	
+	printf("%.3f km/l\n", total);
+ 
+    return 0;
+}
